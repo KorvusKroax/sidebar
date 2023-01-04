@@ -158,8 +158,6 @@ a:hover::after {
 
     background-color: var(--background-color);
 
-    box-shadow: 0 0 1em rgb(0, 0, 0, .5);
-
     transform-origin: right;
     transition: .25s ease-in-out;
 }
@@ -206,4 +204,5 @@ a:hover::after {
 
 #input-checkbox:checked~.sidebar {
     translate: 0 0;
+    box-shadow: 0 0 1em rgb(0, 0, 0, .75);
 }
